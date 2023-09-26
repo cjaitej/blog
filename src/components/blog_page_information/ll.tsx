@@ -21,7 +21,7 @@ const linkedlist = [
   ],
   [
     "picture",
-    ["/linkedlist/single linkedlist.png", "65%", "Single Linked List"],
+    ["./linkedlist/single linkedlist.png", "65%", "Single Linked List"],
   ],
   [
     "para",
@@ -35,7 +35,7 @@ const linkedlist = [
   ["para", ["2. Doubly Linked List."]],
   [
     "picture",
-    ["/linkedlist/double linkedlist.png", "55%", "Doubly Linked list"],
+    ["./linkedlist/double linkedlist.png", "55%", "Doubly Linked list"],
   ],
   [
     "para",
@@ -46,7 +46,7 @@ const linkedlist = [
   ["para", ["3. Circular Linked List."]],
   [
     "picture",
-    ["/linkedlist/circular linkedlist.png", "55%", "Circular Linked list"],
+    ["./linkedlist/circular linkedlist.png", "55%", "Circular Linked list"],
   ],
   [
     "para",
@@ -59,7 +59,7 @@ const linkedlist = [
   [
     "picture",
     [
-      "/linkedlist/circulardouble linkedlist.png",
+      "./linkedlist/circulardouble linkedlist.png",
       "55%",
       "Circular Double Linked list",
     ],
@@ -80,7 +80,7 @@ const linkedlist = [
   ["para", ["1. Traversal Linked list:"]],
   [
     "picture",
-    ["/linkedlist/traverse linkedlist.png", "45%", "Single Linked list"],
+    ["./linkedlist/traverse linkedlist.png", "45%", "Single Linked list"],
   ],
   [
     "para",
