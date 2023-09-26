@@ -1,0 +1,47 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  border-radius: 7px;
+  width: 150px;
+  height: 250px;
+  padding: 15px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.Card:hover {
+  cursor: pointer;
+  background-color: rgb(222, 222, 222);
+}
+
+.Card > h1 {
+  margin-top: 5px;
+  color: rgb(57, 56, 56);
+  font-size: 18px;
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.Home > h1 {
+  font-size: 25px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+  margin-left: 350px;
+  margin-right: 350px;
+  justify-content: center;
+  align-content: center;
+}

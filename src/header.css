@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(42, 39, 39);
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 10px;
+  font-family: Poppins;
+}
+
+.header > h1 {
+  margin-left: 55px;
+  font-weight: 400;
+}
+
+.header--blog {
+  margin-right: auto;
+  margin-left: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  color: grey;
+}
+
+.header--col {
+  display: flex;
+  margin-right: 55px;
+}
+
+.header--col > h1 {
+  margin-right: 25px;
+  font-weight: 200;
+}
+
+.header--col-item:hover {
+  cursor: pointer;
+  color: rgb(40, 133, 239);
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.about > img {
+  margin-right: 15px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.about--text {
+  display: flex;
+  text-align: center;
+  font-size: 15px;
+  font-family: poppins;
+  font-weight: 400;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 50px;
+  font-family: Poppins;
+}
+
+.Contact--heading {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.Contact--sentence {
+  font-size: 20px;
+  font-weight: 400;
+}
