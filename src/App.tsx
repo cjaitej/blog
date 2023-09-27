@@ -1,7 +1,6 @@
 import { Routes, Route, HashRouter } from "react-router-dom";
 import RNN from "./components/blog_pages/RNN";
 import Header from "./components/header";
-import Footer from "./components/footer";
 import Home from "./components/home/home";
 import About from "./components/about";
 import Contact from "./components/contact";
@@ -18,7 +17,6 @@ export default function App() {
         <Route path="/blogs/ml/rnn" element={<RNN />}></Route>
         <Route path="/blogs/ds/ll" element={<LL />}></Route>
       </Routes>
-      <Footer></Footer>
     </HashRouter>
   );
 }

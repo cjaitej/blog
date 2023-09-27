@@ -3,7 +3,10 @@
 }
 
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -15,7 +18,7 @@ body {
   padding: 20px;
   font-size: 10px;
   font-family: Poppins;
-  width: 100%;
+  min-width: 100vh;
 }
 
 .header > h1 {
@@ -54,6 +57,7 @@ body {
 }
 
 .about > img {
+  width: 50%;
   margin-right: 15px;
   border-radius: 5px;
   border: 2px solid black;
@@ -62,7 +66,7 @@ body {
 .about--text {
   display: flex;
   text-align: center;
-  font-size: 15px;
+  font-size: 75%;
   font-family: poppins;
   font-weight: 400;
 }
@@ -83,25 +87,4 @@ body {
 .Contact--sentence {
   font-size: 20px;
   font-weight: 400;
-}
-
-.footer {
-  display: flex;
-  margin-top: 20px;
-  background-color: rgb(74, 73, 73);
-  padding: 15px;
-  color: rgb(210, 206, 206);
-  /* width: 100%; */
-  justify-content: center;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-
-.footer > h1 {
-  font-size: 12px;
-  height: 100%;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: 100;
 }
