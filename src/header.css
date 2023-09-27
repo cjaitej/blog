@@ -91,6 +91,7 @@ body {
   background-color: rgb(74, 73, 73);
   padding: 15px;
   color: rgb(210, 206, 206);
+  width: 100%;
   justify-content: center;
 }
 
@@ -98,5 +99,4 @@ body {
   font-size: 12px;
   font-family: "Times New Roman", Times, serif;
   font-weight: 100;
-  width: 100%;
 }
