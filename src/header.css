@@ -91,12 +91,17 @@ body {
   background-color: rgb(74, 73, 73);
   padding: 15px;
   color: rgb(210, 206, 206);
-  width: 100%;
+  /* width: 100%; */
   justify-content: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .footer > h1 {
   font-size: 12px;
+  height: 100%;
   font-family: "Times New Roman", Times, serif;
   font-weight: 100;
 }
