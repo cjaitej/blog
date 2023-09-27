@@ -77,7 +77,7 @@ const linkedlist = [
       "All the types of linked list have Insertion, Deletion, Traversal operations.",
     ],
   ],
-  ["para", ["1. Traversal Linked list:"]],
+  ["heading1", ["Traversing a Linked list:"]],
   [
     "picture",
     ["./linkedlist/traverse linkedlist.png", "45%", "Single Linked list"],
@@ -97,6 +97,126 @@ const linkedlist = [
     "para",
     [
       "By continuing this process, we eventually reach node 40. When we ask the question again at this point, 'What is the next node after you?' the answer will be null, indicating that we've reached the end of the linked list which is TAIL node. At this point, we can stop our traversal process, as we accessed all the elements along the way.",
+    ],
+  ],
+  ["heading1", ["Insertion in a linked list: "]],
+  [
+    "para",
+    [
+      "In linked list to insert an node in Beginning, middle and at last, we will be using slighty different approach.",
+    ],
+  ],
+  ["underline", ["a. Insertion at Beginning: "]],
+  [
+    "picture",
+    ["./linkedlist/insertionatB.png", "80%", "Insertion at beginning"],
+  ],
+  [
+    "para",
+    [
+      "First, create a newNode with the new data and set the 'next' pointer to null. Next, update the 'next' pointer with the address of the HEAD node in the existing linked list. Logically, the newNode now becomes the first node in the linked list, so we need to update the HEAD pointer to point to the newNode. That's all it takes to insert a node at the beginning of the linked list.",
+    ],
+  ],
+
+  ["underline", ["b. Insertion at end: "]],
+  ["picture", ["./linkedlist/insertionatE.png", "80%", "Insertion at end"]],
+  [
+    "para",
+    [
+      "Create a newNode with the new data, and point the TAIL node's next pointer to the newNode. This sounds easy right? Yes, But with a small twist. We will not be able access the last element directly, so we need to traversing technique explained above to move to the TAIL node or last node.",
+    ],
+  ],
+  [
+    "para",
+    [
+      "**POINT TO REMEMBER** Except HEAD node, we will not be able to access any node directly like in Arrays or list. To access any element in the Linked list we need to traverse to the node.",
+    ],
+  ],
+  ["underline", ["c. Insertion at Middle: "]],
+  ["picture", ["./linkedlist/insertionatC.png", "80%", "Insertion at middle"]],
+  [
+    "para",
+    [
+      "First create a newNode with the new data. Now traverse to the previous position of our desired position. For example if we want to go to position 3, then traverse till position 2.",
+    ],
+  ],
+  [
+    "para",
+    [
+      "Now, let's point the 'next' pointer of 'newNode' to the next element of the node at position 2, which is the node at position 3. Both 'newNode' and the node at position 2 are now pointing their 'next' pointers to the node at position 3. Finally, update the 'next' pointer of the node at position 2 with the address of 'newNode.' With these steps, we have successfully added a new element at position 3.",
+    ],
+  ],
+
+  ["heading1", ["Deletion in a Linked list:"]],
+  [
+    "para",
+    [
+      "Similar to insertion, Deletion also have slightly different approach for Deletion at beginning, end, and middle.",
+    ],
+  ],
+  ["underline", ["a. Deletion at beginning:"]],
+  [
+    "picture",
+    ["./linkedlist/deletionB.png", "80%", "Deletion at the Beginning"],
+  ],
+
+  [
+    "para",
+    [
+      "As previously mentioned, we can directly access the HEAD node, eliminating the need for traversal to access the first element of the linked list.",
+    ],
+  ],
+  [
+    "para",
+    [
+      "Update the HEAD pointer to point to the next node after the original first node. Then, set the NEXT pointer of the original first node to null.",
+    ],
+  ],
+  [
+    "para",
+    [
+      "Now, the original first node is disconnected from the linked list, and the HEAD pointer points to the new first node of the linked list.",
+    ],
+  ],
+  [
+    "para",
+    [
+      "If we remove the first element from a linked list with a size of 1 (one), the HEAD pointer will point to NULL after the removal, indicating that the linked list is empty.",
+    ],
+  ],
+
+  ["underline", ["b. Deletion at end:"]],
+  ["picture", ["./linkedlist/deletionE.png", "80%", "Deletion at the end"]],
+  [
+    "para",
+    [
+      "To delete the last node in the linked list, traverse to the second-to-last node. Then, change the NEXT pointer of the second-to-last node to NULL. This action effectively removes the connection of the last node from the linked list.",
+    ],
+  ],
+  ["underline", ["c. Deletion at Middle:"]],
+  ["picture", ["./linkedlist/deletionM.png", "70%", "Deletion at the Middle"]],
+  [
+    "para",
+    [
+      "Deleting a node from a specific position is tricky. We will be using two pointer for this deletion. One will on the node which we need to delete and another one will be on the previous node of the deletion node.",
+    ],
+  ],
+  [
+    "para",
+    [
+      "In the above image, ptr is pointing to the deletion node and ptr1 is pointing to the previous node.",
+    ],
+  ],
+  [
+    "para",
+    [
+      "First we the update the next pointer of the 'ptr1' with the next pointer value of the 'ptr'. We made a new link as specified in the image.",
+    ],
+  ],
+  [
+    "para",
+    [
+      " Now we need to remove the 'ptr' node completely from the linked list. So, we need to change the next pointer value of the 'ptr' node to NULL. This will remove the node from the linked list.",
     ],
   ],
 ];
