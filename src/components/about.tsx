@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div className="about">
-      <img src="public/jaitej.png" />
+      <img src="./jaitej.png" />
       <h1 className="about--text">
         I am Jaitej, I am currently pursuing a Bachelor of Computer Science at
         Gandhi Institute of Technology and Management (GITAM) in Hyderabad, with

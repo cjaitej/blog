@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .header {
   display: flex;
   background-color: rgb(42, 39, 39);
@@ -11,6 +15,7 @@
   padding: 20px;
   font-size: 10px;
   font-family: Poppins;
+  width: 100%;
 }
 
 .header > h1 {
@@ -78,4 +83,19 @@
 .Contact--sentence {
   font-size: 20px;
   font-weight: 400;
+}
+
+.footer {
+  display: flex;
+  margin-top: 20px;
+  background-color: rgb(74, 73, 73);
+  padding: 15px;
+  color: rgb(210, 206, 206);
+  justify-content: center;
+}
+
+.footer > h1 {
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
 }

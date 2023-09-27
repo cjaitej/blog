@@ -39,9 +39,7 @@
 .categories {
   display: flex;
   flex-wrap: wrap;
-  margin: 50px;
-  margin-left: 350px;
-  margin-right: 350px;
+  margin: 15px;
   justify-content: center;
   align-content: center;
 }
