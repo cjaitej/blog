@@ -1,8 +1,9 @@
 .blog {
   font-family: Georgia, "Times New Roman", Times, serif;
-  padding-left: 10%;
-  padding-right: 30%;
-  padding-top: 20px;
+  padding-left: 7vw;
+  padding-right: 35vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 
 .blog--tittle {

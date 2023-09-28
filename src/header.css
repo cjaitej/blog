@@ -3,7 +3,6 @@
 }
 
 body {
-  /* overflow-x: hidden; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -53,7 +52,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px;
+  padding: 10vh;
 }
 
 .about > img {
@@ -66,7 +65,7 @@ body {
 .about--text {
   display: flex;
   text-align: center;
-  font-size: 75%;
+  font-size: 2vh;
   font-family: poppins;
   font-weight: 400;
 }

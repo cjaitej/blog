@@ -3,7 +3,7 @@ const linkedlist = [
   [
     "para",
     [
-      "In this blog, I want to let you know that I won't be including any computer code. My intention is to concentrate on providing a clear explanation of concepts and ideas.",
+      "In this blog, I want to let you know that I won't be including any code. My intention is to concentrate on providing a clear explanation of concepts and ideas.",
     ],
   ],
   ["heading", ["What are Linked List ?"]],

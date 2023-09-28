@@ -24,10 +24,10 @@ export default function Home() {
   });
   return (
     <div className="Home">
-      <h1>Machine Learning</h1>
-      <div className="categories">{ml_card}</div>
       <h1>Data Structures</h1>
       <div className="categories">{ds_card}</div>
+      <h1>Machine Learning</h1>
+      <div className="categories">{ml_card}</div>
     </div>
   );
 }
