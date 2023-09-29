@@ -4,6 +4,7 @@ import Paragraph from "../paragraph";
 import Picture from "../picture";
 import Heading1 from "../heading1";
 import Underline from "../underline";
+import Link from "../link";
 
 export default function blogGen(props: Array<Array<String | String[]>>) {
   return props.map((item) => {
@@ -25,6 +26,8 @@ export default function blogGen(props: Array<Array<String | String[]>>) {
       return <Heading1 name={item[1][0]}></Heading1>;
     } else if (item[0] == "underline") {
       return <Underline name={item[1][0]}></Underline>;
+    } else if (item[0] == "link") {
+      return <Link name={item[1][0]} link={item[1][1]}></Link>;
     }
   });
 }

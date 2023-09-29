@@ -6,6 +6,7 @@ import About from "./components/about";
 import Contact from "./components/contact";
 import LL from "./components/blog_pages/LL";
 import StackandQueue from "./components/blog_pages/StackandQueue";
+import Tree from "./components/blog_pages/Tree";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           path="/blogs/ds/stackandqueue"
           element={<StackandQueue />}
         ></Route>
+        <Route path="/blogs/ds/tree" element={<Tree />}></Route>
       </Routes>
     </HashRouter>
   );

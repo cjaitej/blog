@@ -72,3 +72,20 @@
   text-decoration: underline 1px;
   text-underline-offset: 3px;
 }
+
+.link {
+  background-color: rgb(45, 43, 43);
+  padding: 10px;
+  color: rgb(232, 225, 225);
+  border-radius: 5px;
+  font-size: 15px;
+  border: 1px solid black;
+  width: fit-content;
+  margin-top: 10px;
+}
+
+.link:hover {
+  color: black;
+  cursor: pointer;
+  background-color: #fff;
+}

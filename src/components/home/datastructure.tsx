@@ -9,6 +9,11 @@ const datastructures = [
     name: "Stack and Queue",
     blogPage: "./blogs/ds/stackandqueue",
   },
+  {
+    image: "./trees/logo.png",
+    name: "Trees",
+    blogPage: "./blogs/ds/tree",
+  },
 ];
 
 export default datastructures;
