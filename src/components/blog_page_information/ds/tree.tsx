@@ -143,7 +143,29 @@ const tree = [
     ],
   ],
   ["heading", ["Operations on Binary search tree:"]],
-  ["heading1", ["1. Insertion of a node:"]],
+  ["heading1", ["1. Traversing in BST"]],
+  [
+    "para",
+    ["Traversing is the way by which access all the nodes in the Tree."],
+  ],
+  ["picture", ["./trees/traversal.jpg", "80%", "Tree traversal techniques."]],
+  ["underline", ["a) INORDER: "]],
+  ["para", ["Step1: Visit left node."]],
+  ["para", ["Step2: Visit root node."]],
+  ["para", ["Step3: Visit right node."]],
+
+  ["underline", ["b) POSTORDER: "]],
+  ["para", ["Step1: Visit left node."]],
+  ["para", ["Step2: Visit right node."]],
+  ["para", ["Step3: Visit root node."]],
+
+  ["underline", ["c) PREORDER: "]],
+  ["para", ["Step1: Visit root node."]],
+  ["para", ["Step2: Visit left node."]],
+  ["para", ["Step3: Visit right node."]],
+  ["picture", ["./trees/traversalcode.png", "60%", "Traversal code."]],
+
+  ["heading1", ["2. Insertion of a node"]],
   [
     "para",
     [
@@ -164,6 +186,65 @@ const tree = [
   ],
   ["picture", ["./trees/insetioncode.png", "80%", "Insertion Code"]],
   ["picture", ["./trees/insertion.png", "70%", "Insertion Processs"]],
+
+  //deletion of node
+  ["heading1", ["3. Deletion of node"]],
+  ["underline", ["a) Search for the Node to Delete"]],
+  ["underline", ["b) if it is leaf node"]],
+  [
+    "para",
+    [
+      "f the node to delete is a leaf node, simply remove it by updating its parent's reference to null. This effectively detaches it from the tree.",
+    ],
+  ],
+  ["underline", ["c) if the node has 1 child "]],
+  [
+    "para",
+    [
+      "If the node to delete has only one child, replace the node with its child.",
+    ],
+  ],
+  ["underline", ["d) if the node has 2 children"]],
+  [
+    "para",
+    [
+      "> When the node to delete has two children, you need to find a suitable replacement node to maintain the BST structure. Common replacements are the inorder successor or predecessor.",
+    ],
+  ],
+  [
+    "para",
+    ["> Find the inorder successor (the smallest node in the right subtree)"],
+  ],
+  [
+    "para",
+    [
+      "> Copy the value of the successor or predecessor into the node to delete, effectively replacing the value.",
+    ],
+  ],
+  [
+    "para",
+    [
+      "> Recursively delete the successor or predecessor node, which is now a node with one or zero children.",
+    ],
+  ],
+  ["picture", ["./trees/deletion.jpg", "70%", "deletion code."]],
+
+  ["picture", ["./trees/deletioncode.png", "60%", "deletion code."]],
+  [
+    "para",
+    [
+      "The time complexity of insertion and deletion in a binary search tree (BST) is O(log n) in the average case, and O(n) in the worst case.",
+    ],
+  ],
+  ["heading1", ["4. Height or depth of a tree"]],
+  [
+    "para",
+    [
+      "The height (or depth) of a tree is a measure of how deep the tree is from its root node to its deepest leaf node. It represents the length of the longest path from the root node to any leaf node in the tree.",
+    ],
+  ],
+  ["picture", ["./trees/HeightTree.png", "60%", "Height of the tree"]],
+  ["picture", ["./trees/height.png", "70%", "Height of tree code."]],
 ];
 
 export default tree;

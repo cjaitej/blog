@@ -5,7 +5,7 @@ const datastructures = [
     blogPage: "/blogs/ds/ll",
   },
   {
-    image: "./stackandqueue/sandqlogo.png",
+    image: "./stackandqueue/logo.png",
     name: "Stack and Queue",
     blogPage: "./blogs/ds/stackandqueue",
   },
